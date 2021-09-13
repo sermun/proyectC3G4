@@ -1,0 +1,83 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'montserrat', sans-serif;
+    min-height: 100%;
+    background:white;
+    font-size: 1.4rem;
+}
+
+@media (min-width: 768px) { /* Modo responsive*/
+    .site-header nav a{
+        margin-bottom: 0;
+    }
+}
+.container{
+    height:100vh;
+    width:100%;
+    background:white;  
+    
+}
+
+.section{
+    width: 50%;
+    height:100vh;
+    background-image: url(../img/img2.jpg);           
+    position: relative;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    float: left;
+}
+
+.aside{
+    width: 50%;
+    height:100vh;
+    background:white; 
+    float: right;
+    
+    
+}
+
+.aside h4{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15rem;
+    margin-bottom: 0%;
+}
+.aside h2{
+    text-align: center;
+    font-style: normal;
+    padding-top: 0;
+}
+
+.controls {
+    width: 50%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #032506;
+    font-family: 'montserrat';
+    font-size: 16px;  
+    margin-left: 22.5%;
+
+}
+.aside .botons {
+    width: 50%;
+    background: #00a80e;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 22.5%;
+}

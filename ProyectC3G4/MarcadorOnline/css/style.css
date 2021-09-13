@@ -58,7 +58,7 @@ h1, h2, h3 {
 
 .hero{
     
-    height:800px;
+    height:100vh;
     background-image: url(../img/img1.jpg);       
     position: relative;
     display: flex;
