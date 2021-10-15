@@ -1,0 +1,160 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    min-height: 100%;
+    background-image: url(../img/bg-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    font-size: 14px;
+    justify-content: center;
+    
+}
+
+.banner a{ 
+    display: flex;       
+    margin-bottom: 0;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+img{
+    width: 300px;
+    height: 281,022930;
+    justify-content: center;
+    
+}
+
+.container{   
+    position: absolute;
+    padding: 16px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 8px;
+    text-transform: uppercase;   
+    box-shadow: 10px 10px 20px -10px rgba(0,0,0,0.7);  
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+.tabla{
+    margin-left: 9%;
+    text-align: center;    
+}
+
+.fechas{
+    border: none;
+    padding: 17px;
+    font-size: 12px;
+    background: transparent;
+    color: #00a80e;
+    font-weight: bold;    
+}
+
+.editar{
+    font-size: 10px;
+  
+}
+
+.caja-equipo{
+    background: transparent;
+    border: none;
+    text-align: center;   
+}
+
+.caja-marcador{
+    background: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(10, 10, 54);
+    border: none;
+    text-align: center; 
+    width: 50px;
+    height: 50px        
+       
+}
+
+
+
+
+
+
+/*.site-header {
+    background-image: url(../img/img1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 10%;
+    min-height: 100px;
+}
+
+.banner {
+    display: flex;
+    margin: 0;
+    height: 30%;
+    min-height: 200px;
+    background: #eaeaea;
+    justify-content: center;
+}
+
+.site-table {
+    display: flex;
+    position: center;
+    background-color: aqua;
+    width:1200px;
+    justify-content: center;    
+}
+
+.botton {
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+}
+
+.container.tabla {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.texto-tabla {
+    text-align: center;   
+    vertical-align: middle;   
+    border:none; 
+}*/
+
+#local {
+    border: none;
+    text-align: center;
+}
+
+#goles_local {
+    border: none;
+    text-align: center;
+}
+
+#goles_visitante {
+    border: none;
+    text-align: center;
+}
+
+#visitante {
+    border: none;
+    text-align: center;
+}
