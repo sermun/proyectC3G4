@@ -1,0 +1,57 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'montserrat', sans-serif;
+    min-height: 100%;
+    background:white;
+    font-size: 1.4rem;
+}
+
+.site-container{
+    width:1200px;
+    height:100vh;
+    background: white;
+    margin: 0.5em auto;
+}
+
+.site-header{
+  margin: 0;
+  height: 10%;
+  min-height: 80px;
+  background: greenyellow;
+}
+
+
+.banner{
+  background-image: url(../img/encuentra.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+ background-image: url(../img/admin.jpg);
+}
+
+.banner::after{
+  content: '';
+  background-color: rgba(0,0,0,.7); /*a= opacidad*/
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.banner .imagen{
+  width: 800px;
+  height: 50px;
+  display: flex;
+
+
+}
