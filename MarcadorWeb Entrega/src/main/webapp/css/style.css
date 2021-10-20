@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+html{    
+    box-sizing: border-box;
+    min-height: 100%;     
+    margin: 0;
+    padding: 0;         
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+body{      
+    
+    font-family: 'montserrat', sans-serif;
+    min-height: 100%;     
+    font-size: 1.4rem;
+    height:100vh;
+    background-image: url(../img/fondoreg-min.png);      
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.contenedor-hero{
+    display: flex;            
+    color: white;
+    position: relative;
+    z-index: 1; /* Posición (adelante= 1 / atras= -1) */
+    text-align: center;  
+}
+
+.form-register{
+    top: 30%;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    margin: auto;    
+    border-radius: 4x; 
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    position: center center;
+}
+
+.controls {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #032506;
+    font-family: 'montserrat';
+    font-size: 16px;
+
+}
+
+.form-register p {
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #00a80e;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
